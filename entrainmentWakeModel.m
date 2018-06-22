@@ -11,6 +11,14 @@ function [Uw, Dw, Uw_lin, Dw_lin, kE] = entrainmentWakeModel(x, Ct, E)
 %
 % To produce sample output and plots, run without any input.
 %
+% References:
+%
+% Morton, B. R. 1961. ?On a Momentum-Mass Flux Diagram for Turbulent Jets, 
+% Plumes and Wakes.? Journal of Fluid Mechanics 10 (1): 101?12.
+%
+% Luzzatto-Fegiz, P. 2018 ""A one-parameter model for turbine wakes from 
+% the entrainment hypothesis" Journal of Physics: Conf. Series 1037:072019
+%
 % Paolo Luzzatto-Fegiz, May 2018
 
 if ~exist('Ct', 'var')
